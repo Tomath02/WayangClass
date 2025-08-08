@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "571269117318",
+    "project_id": "wayangclass",
+    "storage_bucket": "wayangclass.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571269117318:android:c3489cd38119bdfddda807",
+        "android_client_info": {
+          "package_name": "com.example.wayangclass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnZSNbxcYtnIb89ADugt58oQrS6iWaWwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
