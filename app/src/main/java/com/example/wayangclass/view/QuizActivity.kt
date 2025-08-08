@@ -1,4 +1,4 @@
-package com.example.wayangclass
+package com.example.wayangclass.view
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
@@ -9,9 +9,10 @@ import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import com.example.wayangclass.R
 import com.example.wayangclass.databinding.ActivityQuizBinding
 import com.example.wayangclass.databinding.ScoreDialogBinding
-import kotlin.math.min
+import com.example.wayangclass.model.QuestionModel
 
 class QuizActivity : AppCompatActivity(),View.OnClickListener {
 
@@ -89,7 +90,7 @@ class QuizActivity : AppCompatActivity(),View.OnClickListener {
         }
 
         val clickedBtn = view as Button
-        if(clickedBtn.id==R.id.next_btn){
+        if(clickedBtn.id== R.id.next_btn){
             //next button is clicked
             if(selectedAnswer.isEmpty()){
                 Toast.makeText(applicationContext,"Please select answer to continue",Toast.LENGTH_SHORT).show()
