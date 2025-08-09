@@ -6,7 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".view.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -25,7 +27,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Quizzy App"
+            android:text="Wayang Class"
             android:gravity="center"
             android:textSize="34sp"
             android:letterSpacing="0.1"
@@ -35,7 +37,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lets play this awesome quiz app to enhance your knowledge"
+            android:text="Ayo Uji Pemahamanmu Tentang Cerita-cerita Wayang!"
             android:gravity="center"
             android:textSize="18sp"
             android:layout_margin="16dp"
@@ -48,7 +50,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="All items"
+        android:text="Pilih Cerita"
         android:layout_marginTop="16dp"
         android:layout_marginStart="4dp"
         android:textSize="20sp"

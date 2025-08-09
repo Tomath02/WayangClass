@@ -1,4 +1,4 @@
-package com.example.wayangclass
+package com.example.wayangclass.model
 
 data class QuizModel(
     val id : String,
